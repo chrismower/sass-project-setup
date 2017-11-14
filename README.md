@@ -48,6 +48,7 @@ Compass uses the `config.rb` file.
 
 ## Initialize Project with Grunt
 
+	$ cd <project directory>
 	$ npm install grunt
 
 This installs grunt on the project-level. Grunt uses the package.json file when running it's script.
@@ -56,6 +57,7 @@ This installs grunt on the project-level. Grunt uses the package.json file when 
 
 These are npm packages we use when running our grunt script.
 
+	$ cd <project directory>
 	$ npm install grunt-contrib-watch --save-dev
 	$ npm install grunt-contrib-uglify --save-dev
 	$ npm install grunt-contrib-compass --save-dev
